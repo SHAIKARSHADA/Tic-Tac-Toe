@@ -33,14 +33,14 @@ body {
   border:none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   font-size:12vmin;
-  color:whitesmoke;
+  color:rgb(181, 181, 117);
   background-color: #FF9671;
 }
 
 #reset-btn{
   padding:1.5vmin 2.5vmin 1.5vmin 2.5vmin;
-  color:white;
-  background-color:#FF6F91;
+  color:#D65DB1;
+  background-color:#F9F871;
   font-size:3vmin;
   border:none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -78,4 +78,51 @@ body {
 h1 {
   margin-top:3rem;
   font-size:5rem;
+}
+
+@media (300px <= width <= 700px) {
+  h1 {
+    margin-top:3rem;
+    font-size:4rem;
+  }
+  .game {
+    height: 70vmin;
+    width: 70vmin;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+    gap:2vmin;
+  }
+  
+  .button {
+    height: 22vmin;
+    width: 22vmin;
+    border-radius: 1rem;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size:12vmin;
+    color:rgb(181, 181, 117);
+    background-color:#F9F871;
+  }
+  .container {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+    height: 70vh;
+  }
+  
+  #reset-btn{
+    margin-bottom:50px;
+    font-size:8vmin;
+  }
+  
+  #new-btn{  
+    margin-top:5vmin;
+    font-size:8vmin; 
+  }
+  #msg {
+    font-size:14vmin; 
+  }
 }
